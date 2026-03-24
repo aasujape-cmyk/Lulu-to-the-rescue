@@ -62,15 +62,9 @@ If stamina reaches 0, Lulu becomes exhausted and stops to recover energy.
 * **UI Scenes:** Start Menu, Victory, and Game Over screens.
 * **Stamina System:** Consumption management per action and recovery via rest.
 
-## 8. Technical Specifications
-* **Nodes:**
-    * `CharacterBody2D` (Lulu) with `AnimatedSprite2D`.
-    * `Area2D` for bark projectiles and poop mines.
-    * `Marker2D` in each lane for precise enemy spawning.
-
-## 9. Dynamic Difficulty and Extra Features
-### 9.1 "Power Bark"
+## 8. Dynamic Difficulty and Extra Features
+### 8.1 "Power Bark"
 If Lulu has 100% stamina, the first bark is a "Super Bark" that affects all 3 lanes simultaneously.
 
-### 9.2 Nap Mode
+### 8.2 Nap Mode
 At the 60-second mark, the owner appears in a window and cheers for Lulu, entering an infinite energy mode for a few seconds.
