@@ -68,3 +68,41 @@ If Lulu has 100% stamina, the first bark is a "Super Bark" that affects all 3 la
 
 ### 8.2 Nap Mode
 At the 60-second mark, the owner appears in a window and cheers for Lulu, entering an infinite energy mode for a few seconds.
+
+### 8.3 Enhanced Enemy Behaviors
+
+To introduce more variety without increasing technical complexity, additional enemy behavior types are defined:
+
+- **Hesitant Enemy**
+  - Effect: Stops temporarily when hit by a bark instead of being pushed back.
+  - Purpose: Forces the player to react differently and not rely only on knockback.
+
+- **Trap Breaker Enemy**
+  - Effect: Destroys "Poop" traps upon contact without being stunned.
+  - Purpose: Reduces over-reliance on traps and increases strategic placement.
+
+- **Tank Enemy**
+  - Effect: Ignores the first stun effect received (either from bark or trap).
+  - Purpose: Adds resistance-based challenge and prioritization during waves.
+
+### 8.4 Power-Up: Golden Bone
+
+A temporary power-up designed to reward positioning and timing.
+
+- **Spawn**: Appears randomly on the field during waves.
+- **Duration**: 5 seconds upon pickup.
+
+- **Effects**:
+  - Barking consumes no stamina.
+  - Increased knockback force on enemies.
+
+- **Purpose**:
+  - Creates high-intensity moments.
+  - Encourages aggressive play and quick decision-making.
+
+## 9. Resources
+
+- Character sprites (Lulu animations)
+- Enemy sprites (humans and animals)
+- Environment tileset (garden, lanes, house)
+- Sound effects (bark, poop, effects, UI sounds)
